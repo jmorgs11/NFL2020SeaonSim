@@ -1,0 +1,1631 @@
+import numpy as np
+
+
+def NFL_2020_season(n):
+    ARI_Div = 0
+    ATL_Div = 0
+    BAL_Div = 0
+    BUF_Div = 0
+    CAR_Div = 0
+    CHI_Div = 0
+    CIN_Div = 0
+    CLE_Div = 0
+    DAL_Div = 0
+    DEN_Div = 0
+    DET_Div = 0
+    GB_Div = 0
+    HOU_Div = 0
+    IND_Div = 0
+    JAX_Div = 0
+    KC_Div = 0
+    LAC_Div = 0
+    LAR_Div = 0
+    LV_Div = 0
+    MIA_Div = 0
+    MIN_Div = 0
+    NE_Div = 0
+    NO_Div = 0
+    NYG_Div = 0
+    NYJ_Div = 0
+    PHI_Div = 0
+    PIT_Div = 0
+    SEA_Div = 0
+    SF_Div = 0
+    TB_Div = 0
+    TEN_Div = 0
+    WAS_Div = 0
+    
+    ARI_W = 0
+    ATL_W = 0
+    BAL_W = 0
+    BUF_W = 0
+    CAR_W = 0
+    CHI_W = 0
+    CIN_W = 0
+    CLE_W = 0
+    DAL_W = 0
+    DEN_W = 0
+    DET_W = 0
+    GB_W = 0
+    HOU_W = 0
+    IND_W = 0
+    JAX_W = 0
+    KC_W = 0
+    LAC_W = 0
+    LAR_W = 0
+    LV_W = 0
+    MIA_W = 0
+    MIN_W = 0
+    NE_W = 0
+    NO_W = 0
+    NYG_W = 0
+    NYJ_W = 0
+    PHI_W = 0
+    PIT_W = 0
+    SEA_W = 0
+    SF_W = 0
+    TB_W = 0
+    TEN_W = 0
+    WAS_W = 0
+    
+    
+
+    
+        
+    for i in range(n):
+        
+        ARI = 0
+        ATL = 0
+        BAL = 0
+        BUF = 0
+        CAR = 0
+        CHI = 0
+        CIN = 0
+        CLE = 0
+        DAL = 0
+        DEN = 0
+        DET = 0
+        GB = 0
+        HOU = 0
+        IND = 0
+        JAX = 0
+        KC = 0
+        LAC = 0
+        LAR = 0
+        LV = 0
+        MIA = 0
+        MIN = 0
+        NE = 0
+        NO = 0
+        NYG = 0
+        NYJ = 0
+        PHI = 0
+        PIT = 0
+        SEA = 0
+        SF = 0
+        TB = 0
+        TEN = 0
+        WAS = 0
+
+
+            
+        ########## Week 1
+        game1 = float(np.random.uniform(0,1,1))
+        game2 = float(np.random.uniform(0,1,1))
+        game3 = float(np.random.uniform(0,1,1))
+        game4 = float(np.random.uniform(0,1,1))
+        game5 = float(np.random.uniform(0,1,1))
+        game6 = float(np.random.uniform(0,1,1))
+        game7 = float(np.random.uniform(0,1,1))
+        game8 = float(np.random.uniform(0,1,1))
+        game9 = float(np.random.uniform(0,1,1))
+        game10 = float(np.random.uniform(0,1,1))
+        game11 = float(np.random.uniform(0,1,1))
+        game12 = float(np.random.uniform(0,1,1))
+        game13 = float(np.random.uniform(0,1,1))
+        game14 = float(np.random.uniform(0,1,1))
+        game15 = float(np.random.uniform(0,1,1))
+        game16 = float(np.random.uniform(0,1,1))
+
+        
+        if game1 >= .15:
+            KC += 1
+        else:
+            HOU += 1
+        if game2 >= .5:
+            SEA += 1
+        else:
+            ATL += 1
+        if game3 >= .2:
+            PHI += 1
+        else:
+            WAS +=1
+        if game4 >= .35:
+            NE+= 1
+        else:
+            MIA += 1
+        if game5>= .45:
+            MIN += 1
+        else: 
+            GB += 1
+        if game6>= .17:
+            IND += 1
+        else:
+            JAX += 1
+        if game7>=.38:
+            DET += 1
+        else: 
+            CHI += 1
+        if game8>= .2:
+            BAL += 1
+        else:
+            CLE += 1
+        if game9>=.05:
+            BUF+=1
+        else:
+            NYJ +=1
+        if game10>=.38:
+            LV+=1
+        else:
+            CAR += 1
+        if game11>=.42:
+            LAC += 1
+        else:
+            CIN +=1
+        if game12>= .33:
+            NO+=1
+        else:
+            TB+=1
+        if game13>=.1:
+            SF +=1
+        else:
+            ARI+=1
+        if game14>=.43:
+            DAL+=1
+        else:
+            LAR+=1
+        if game15>=.33:
+            PIT += 1
+        else:
+            NYG += 1
+        if game16>=.4:
+            DEN+=1
+        else:
+            TEN += 1
+        ########## Week 2
+        game17 = float(np.random.uniform(0,1,1))
+        game18 = float(np.random.uniform(0,1,1))
+        game19 = float(np.random.uniform(0,1,1))
+        game20 = float(np.random.uniform(0,1,1))
+        game21 = float(np.random.uniform(0,1,1))
+        game22 = float(np.random.uniform(0,1,1))
+        game23 = float(np.random.uniform(0,1,1))
+        game24 = float(np.random.uniform(0,1,1))
+        game25 = float(np.random.uniform(0,1,1))
+        game26 = float(np.random.uniform(0,1,1))
+        game27 = float(np.random.uniform(0,1,1))
+        game28 = float(np.random.uniform(0,1,1))
+        game29 = float(np.random.uniform(0,1,1))
+        game30 = float(np.random.uniform(0,1,1))
+        game31 = float(np.random.uniform(0,1,1))
+        game32 = float(np.random.uniform(0,1,1))
+        
+        if game17>=.37:
+            CLE+=1
+        else:
+            CIN+=1
+        if game18>=.41:
+            CHI+=1
+        else:
+            NYG+=1
+        if game19>=.18:
+            TEN += 1
+        else:
+            JAX+=1
+        if game20>=.1:
+            TB+=1
+        else:
+            CAR+=1
+        if game21>= .47:
+            DEN+=1
+        else:
+            PIT+=1
+        if game22>=.44:
+            LAR+=1
+        else:
+            PHI+=1
+        if game23>=.28:
+            DAL+=1
+        else:
+            ATL+=1
+        if game24>=.37:
+            GB+=1
+        else:
+            DET+=1
+        if game25>=.48:
+            MIN+=1
+        else:
+            IND+=1
+        if game26>=.15:
+            BUF+=1
+        else:
+            MIA+=1
+        if game27>= .02:
+            SF += 1
+        else:
+            NYJ += 1
+        if game28>=.22:
+            ARI +=1
+        else:
+            WAS +=1
+        if game29>=.2:
+            KC+=1
+        else:
+            LAC +=1
+        if game30 >=.19:
+            BAL+=1
+        else:
+            HOU += 1
+        if game31>=.42:
+            SEA+=1
+        else:
+            NE+=1
+        if game32>=.08:
+            NO+=1
+        else:
+            LV+=1
+            
+        ########## Week 3
+        game33 = float(np.random.uniform(0,1,1))
+        game34 = float(np.random.uniform(0,1,1))
+        game35 = float(np.random.uniform(0,1,1))
+        game36 = float(np.random.uniform(0,1,1))
+        game37 = float(np.random.uniform(0,1,1))
+        game38 = float(np.random.uniform(0,1,1))
+        game39 = float(np.random.uniform(0,1,1))
+        game40 = float(np.random.uniform(0,1,1))
+        game41 = float(np.random.uniform(0,1,1))
+        game42 = float(np.random.uniform(0,1,1))
+        game43 = float(np.random.uniform(0,1,1))
+        game44 = float(np.random.uniform(0,1,1))
+        game45 = float(np.random.uniform(0,1,1))
+        game46 = float(np.random.uniform(0,1,1))
+        game47 = float(np.random.uniform(0,1,1))
+        game48 = float(np.random.uniform(0,1,1))
+        
+        if game33>=.4:
+            MIA+=1
+        else:
+            JAX+=1
+        if game34>=.13:
+            SF+=1
+        else:
+            NYG+=1
+        if game35>=.33:
+            PIT+=1
+        else:
+            HOU+=1
+        if game36>=.27:
+            PHI+=1
+        else:
+            CIN+=1
+        if game37>=.19:
+            NE+=1
+        else:
+            LV+=1
+        if game38>=.49:
+            TEN+=1
+        else:
+            MIN+=1
+        if game39>=.18:
+            CLE+=1
+        else:
+            WAS+=1
+        if game40>=.35:
+            BUF+=1
+        else:
+            LAR+=1
+        if game41>=.3:
+            ATL+=1
+        else:
+            CHI+=1
+        if game42>=.32:
+            LAC==1
+        else:
+            CAR+=1
+        if game43>=.08:
+            IND+=1
+        else:
+            NYJ+=1
+        if game44>=.42:
+            DET+=1
+        else:
+            ARI+=1
+        if game45>=.41:
+            DAL+=1
+        else:
+            SEA+=1
+        if game46>=.39:
+            DEN+=1
+        else:
+            TB+=1
+        if game47>=.28:
+            NO+=1
+        else:
+            GB+=1
+        if game48>=.48:
+            KC+=1
+        else:
+            BAL+=1
+        ########## Week 4
+        game49 = float(np.random.uniform(0,1,1))
+        game50 = float(np.random.uniform(0,1,1))
+        game51 = float(np.random.uniform(0,1,1))
+        game52 = float(np.random.uniform(0,1,1))
+        game53 = float(np.random.uniform(0,1,1))
+        game54 = float(np.random.uniform(0,1,1))
+        game55 = float(np.random.uniform(0,1,1))
+        game56 = float(np.random.uniform(0,1,1))
+        game57 = float(np.random.uniform(0,1,1))
+        game58 = float(np.random.uniform(0,1,1))
+        game59 = float(np.random.uniform(0,1,1))
+        game60 = float(np.random.uniform(0,1,1))
+        game61 = float(np.random.uniform(0,1,1))
+        game62 = float(np.random.uniform(0,1,1))
+        game63 = float(np.random.uniform(0,1,1))
+        game64 = float(np.random.uniform(0,1,1))
+        
+        if game49>=.188:
+            DEN+=1
+        else:
+            NYJ+=1
+        if game50>=.43:
+            ARI+=1
+        else:
+            CAR+=1
+        if game51>=.06:
+            BAL+=1
+        else:
+            WAS+=1
+        if game52>=.45:
+            TEN+=1
+        else:PIT+=1
+        if game53>=.28:
+            TB+=1
+        else:LAC+=1
+        if game54>=.3:
+            SEA+=1
+        else:
+            MIA+=1
+        if game55>=.45:
+            CHI+=2
+        else:IND+=1
+        if game56>=.39:
+            CIN+=1
+        else:JAX+=1
+        if game57>=.22:
+            DAL+=1
+        else:
+            CLE+=1
+        if game58>=.25:
+            NO+=1
+        else:DET+=1
+        if game59>=.44:
+            HOU+=1
+        else:MIN+=1
+        if game60>=.25:
+            LAR+=1
+        else:NYG+=1
+        if game61>=.12:
+            BUF+=1
+        else:
+            LV+=1
+        if game62>=.15:
+            KC+=1
+        else:NE+=1
+        if game63>=.22:
+            SF+=1
+        else:
+            PHI+=1
+        if game64>=.36:
+            GB+=1
+        else:
+            ATL+=1
+        
+        ########## Week 5
+        
+        game65 = float(np.random.uniform(0,1,1))
+        game66 = float(np.random.uniform(0,1,1))
+        game67 = float(np.random.uniform(0,1,1))
+        game68 = float(np.random.uniform(0,1,1))
+        game69 = float(np.random.uniform(0,1,1))
+        game70 = float(np.random.uniform(0,1,1))
+        game71 = float(np.random.uniform(0,1,1))
+        game72 = float(np.random.uniform(0,1,1))
+        game73 = float(np.random.uniform(0,1,1))
+        game74 = float(np.random.uniform(0,1,1))
+        game75 = float(np.random.uniform(0,1,1))
+        game76 = float(np.random.uniform(0,1,1))
+        game77 = float(np.random.uniform(0,1,1))
+        game78 = float(np.random.uniform(0,1,1))
+        game79 = float(np.random.uniform(0,1,1))
+        
+        if game65>=.29:
+            TB+=1
+        else:
+            CHI+=1
+        if game66>=.25:
+            ATL+=1
+        else:
+            CAR+=1
+        if game67>=.14:
+            LAR+=1
+        else:WAS+=1
+        if game68>=.46:
+            BUF+=1
+        else:
+            TEN+=1
+        if game69>=.4:
+            PIT+=1
+        else:
+            PHI+=1
+        if game70>=.33:
+            ARI+=1
+        else:
+            NYJ+=1
+        if game71>=.022:
+            BAL+=1
+        else:
+            CIN+=1
+        if game72>=.275:
+            HOU+=1
+        else:
+            JAX+=1
+        if game73>=.11:
+            KC+=1
+        else:
+            LV+=1
+        if game74>=.412:
+            DEN+=1
+        else:
+            NE+=1
+        if game75>=.14:
+            SF+=1
+        else:
+            MIA+=1
+        if game76>=.12:
+            DAL+=1
+        else:
+            NYG+=1
+        if game77>=.47:
+            CLE+=1
+        else:
+            IND+=1
+        if game78>=.37:
+            SEA+=1
+        else:
+            MIN+=1
+        if game79>=.14:
+            NO+=1
+        else:
+            LAC+=1
+            
+        ########## Week 6
+
+        game80 = float(np.random.uniform(0,1,1))
+        game81 = float(np.random.uniform(0,1,1))
+        game82 = float(np.random.uniform(0,1,1))
+        game83 = float(np.random.uniform(0,1,1))
+        game84 = float(np.random.uniform(0,1,1))
+        game85 = float(np.random.uniform(0,1,1))
+        game86 = float(np.random.uniform(0,1,1))
+        game87 = float(np.random.uniform(0,1,1))
+        game88 = float(np.random.uniform(0,1,1))
+        game89 = float(np.random.uniform(0,1,1))
+        game90 = float(np.random.uniform(0,1,1))
+        game91 = float(np.random.uniform(0,1,1))
+        game92 = float(np.random.uniform(0,1,1))
+        game93 = float(np.random.uniform(0,1,1))
+        
+        if game80>= .37:
+            KC+=1
+        else:
+            BUF+=1
+        if game81>= .2:
+            IND+=1
+        else:
+            CIN+=1
+        if game82>= .38:
+            DET +=1
+        else:
+            JAX+=1
+        if game83>=.37:
+            MIN+=1
+        else:
+            ATL+=1
+        if game84>=.35:
+            NYG+=1
+        else:
+            WAS+=1
+        if game85>=.42:
+            CHI+=1
+        else:CAR+=1
+        if game86>=.19:
+            BAL+=1
+        else:
+            PHI+=1
+        if game87>=.28:
+            TEN+=1
+        else:
+            HOU+=1
+        if game88>=.31:
+            PIT+=1
+        else:CLE+=1
+        if game89>=.09:
+            DEN+=1
+        else:MIA+=1
+        if game90>=.179:
+            LAC+=1
+        else:
+            NYJ+=1
+        if game91>=.3:
+            TB+=1
+        else:
+            GB+=1
+        if game92>=.34:
+            SF+=1
+        else:
+            LAR+=1
+        if game93>=.2:
+            DAL+=1
+        else:
+            ARI+=1
+        ##### Week 7
+        game94 = float(np.random.uniform(0,1,1))
+        game95 = float(np.random.uniform(0,1,1))
+        game96 = float(np.random.uniform(0,1,1))
+        game97 = float(np.random.uniform(0,1,1))
+        game98 = float(np.random.uniform(0,1,1))
+        game99 = float(np.random.uniform(0,1,1))
+        game100 = float(np.random.uniform(0,1,1))
+        game101 = float(np.random.uniform(0,1,1))
+        game102 = float(np.random.uniform(0,1,1))
+        game103 = float(np.random.uniform(0,1,1))
+        game104 = float(np.random.uniform(0,1,1))
+        game105 = float(np.random.uniform(0,1,1))
+        game106 = float(np.random.uniform(0,1,1))
+        game107 = float(np.random.uniform(0,1,1))
+
+        if game94>=.36:
+            PHI+=1
+        else:
+            NYG+=1
+        if game95>.18:
+            BAL+=1
+        else:
+            PIT +=1
+        if game96>=.5:
+            CIN+=1
+        else:
+            CLE+=1
+        if game97>=.33:
+            GB+=1
+        else:
+            HOU+=1
+        if game98>=.25:
+            LAC+=1
+        else:
+            MIA+=1
+        if game99>=.23:
+            ATL+=1
+        else:
+            DET+=1
+        if game100>=.03:
+            NO+=1
+        else:
+            CAR+=1
+        if game101>=.06:
+            DAL+=1
+        else:
+            WAS+=1
+        if game102>=.09:
+            BUF+=1
+        else:
+            NYJ+=1
+        if game103>=.13:
+            KC+=1
+        else:
+            DEN+=1
+        if game104>=.2:
+            SF+=1
+        else:
+            NE+=1
+        if game105>=.2:
+            TB+=1
+        else:
+            LV+=1
+        if game106>=.25:
+            SEA+=1
+        else:
+            ARI+=1
+        if game107>=.2:
+            LAR+=1
+        else:
+            CHI+=1
+        ##### Week 8
+        game108 = float(np.random.uniform(0,1,1))
+        game109 = float(np.random.uniform(0,1,1))
+        game110 = float(np.random.uniform(0,1,1))
+        game111 = float(np.random.uniform(0,1,1))
+        game112 = float(np.random.uniform(0,1,1))
+        game113 = float(np.random.uniform(0,1,1))
+        game114 = float(np.random.uniform(0,1,1))
+        game115 = float(np.random.uniform(0,1,1))
+        game116 = float(np.random.uniform(0,1,1))
+        game117 = float(np.random.uniform(0,1,1))
+        game118 = float(np.random.uniform(0,1,1))
+        game119 = float(np.random.uniform(0,1,1))
+        game120 = float(np.random.uniform(0,1,1))
+        
+        if game108>=.2:
+            ATL+=1
+        else:
+            CAR+=1
+        if game109>=.1:
+            TEN+=1
+        else:
+            CIN+=1
+        if game110>=.3:
+            CLE+=1
+        else:
+            LV+=1
+        if game111>=.45:
+            IND+=1
+        else:
+            DET+=1
+        if game112>=.35:
+            GB+=1
+        else:
+            MIN+=1
+        if game113>=.3:
+            BUF+=1
+        else:
+            NE+=1
+        if game114>=.009:
+            KC+=1
+        else:
+            NYJ+=1
+        if game115>=.27:
+            LAR+=1
+        else:
+            MIA+=1
+        if game116>=.22:
+            LAC+=1
+        else:
+            JAX+=1
+        if game117>=.18:
+            NO+=1
+        else:
+            CHI+=1
+        if game118>=.5:
+            SF+=1
+        else:
+            SEA+=1
+        if game119>=.389:
+            PHI+=1
+        else:
+            DAL+=1
+        if game120>=.23:
+            TB+=1
+        else:
+            NYG+=1
+        ##### Week 9
+        game121 = float(np.random.uniform(0,1,1))
+        game122 = float(np.random.uniform(0,1,1))
+        game123 = float(np.random.uniform(0,1,1))
+        game124 = float(np.random.uniform(0,1,1))
+        game125 = float(np.random.uniform(0,1,1))
+        game126 = float(np.random.uniform(0,1,1))
+        game127 = float(np.random.uniform(0,1,1))
+        game128 = float(np.random.uniform(0,1,1))
+        game129 = float(np.random.uniform(0,1,1))
+        game130 = float(np.random.uniform(0,1,1))
+        game131 = float(np.random.uniform(0,1,1))
+        game132 = float(np.random.uniform(0,1,1))
+        game133 = float(np.random.uniform(0,1,1))
+        game134 = float(np.random.uniform(0,1,1))
+        
+        if game121>=.39:
+            SF+=1
+        else:
+            GB+=1
+        if game122>=.47:
+            BUF+=1
+        else:
+            SEA+=1
+        if game123>=.1:
+            BAL+=1
+        else:
+            IND+=1
+        if game124>=.002:
+            KC+=1
+        else:
+            CAR+=1
+        if game125>=.5:
+            ATL+=1
+        else:
+            DEN+=1
+        if game126>=.22:
+            MIN+=1
+        else:
+            DET+=1
+        if game127>=.46:
+            WAS+=1
+        else:
+            NYG+=1
+        if game128>=.19:
+            TEN+=1
+        else:
+            CHI+=1
+        if game129>=.33:
+            LAC+=1
+        else:
+            LV+=1
+        if game130>=.2:
+            ARI+=1
+        else:
+            MIA+=1
+        if game131>=.39:
+            HOU+=1
+        else:
+            JAX+=1
+        if game132>=.42:
+            DAL+=1
+        else:
+            PIT+=1
+        if game133>=.5:
+            TB+=1
+        else:
+            NO+=1
+        if game134>=.26:
+            NE+=1
+        else:
+            NYJ+=1
+        
+        ##### Week 10
+        game135 = float(np.random.uniform(0,1,1))
+        game136 = float(np.random.uniform(0,1,1))
+        game137 = float(np.random.uniform(0,1,1))
+        game138 = float(np.random.uniform(0,1,1))
+        game139 = float(np.random.uniform(0,1,1))
+        game140 = float(np.random.uniform(0,1,1))
+        game141 = float(np.random.uniform(0,1,1))
+        game142 = float(np.random.uniform(0,1,1))
+        game143 = float(np.random.uniform(0,1,1))
+        game144 = float(np.random.uniform(0,1,1))
+        game145 = float(np.random.uniform(0,1,1))
+        game146 = float(np.random.uniform(0,1,1))
+        game147 = float(np.random.uniform(0,1,1))
+        game148 = float(np.random.uniform(0,1,1))
+        
+        if game135>=.2:
+            TEN+=1
+        else:
+            IND+=1
+        if game136>=.36:
+            CLE+=1
+        else:
+            HOU+=1
+        if game137>=.18:
+            DET+=1
+        else:
+            WAS+=1
+        if game138>=.02:
+            GB+=1
+        else:
+            JAX+=1
+        if game139>=.5:
+            NYG+=1
+        else:
+            PHI+=1
+        if game140>=.1:
+            TB+=1
+        else:
+            CAR+=1
+        if game141>=.1:
+            PIT+=1
+        else:
+            CIN+=1
+        if game142>=.39:
+            BUF+=1
+        else:
+            ARI+=1
+        if game143>=.46:
+            DEN+=1
+        else:
+            LV+=1
+        if game144>=.3:
+            MIA+=1
+        else:
+            NYJ+=1
+        if game145>=.42:
+            LAR+=1
+        else:
+            SEA+=1
+        if game146>-.4:
+            NO+=1
+        else:
+            SF+=1
+        if game147>=.15:
+            BAL+=1
+        else:
+            NE+=1
+        if game148>=.4:
+            CHI+=1
+        else:
+            MIN+=1
+        
+        ##### Week 11
+        
+        game149 = float(np.random.uniform(0,1,1))
+        game150 = float(np.random.uniform(0,1,1))
+        game151 = float(np.random.uniform(0,1,1))
+        game152 = float(np.random.uniform(0,1,1))
+        game153 = float(np.random.uniform(0,1,1))
+        game154 = float(np.random.uniform(0,1,1))
+        game155 = float(np.random.uniform(0,1,1))
+        game156 = float(np.random.uniform(0,1,1))
+        game157 = float(np.random.uniform(0,1,1))
+        game158 = float(np.random.uniform(0,1,1))
+        game159 = float(np.random.uniform(0,1,1))
+        game160 = float(np.random.uniform(0,1,1))
+        game161 = float(np.random.uniform(0,1,1))
+        
+        if game149>=.25:
+            SEA+=1
+        else:
+            ARI+=1
+        if game150>=.3:
+            DET+=1
+        else:
+            CAR+=1
+        if game151>=.45:
+            HOU+=1
+        else:
+            NE+=1
+        if game152>=.27:
+            GB+=1
+        else:
+            IND+=1
+        if game153>=.28:
+            BAL+=1
+        else:
+            TEN+=1
+        if game154>=.18:
+            PIT+=1
+        else:
+            JAX+=1
+        if game155>-.4:
+            CIN+=1
+        else:
+            WAS+=1
+        if game156>=.26:
+            DEN+=1
+        else:
+            LAC+=1
+        if game157>=.46:
+            MIN+=1
+        else:
+            DAL+=1
+        if game158>=.16:
+            KC+=1
+        else:
+            LV+=1
+        if game159>=.2:
+            NO+=1
+        else:
+            ATL+=1
+        if game160>=.38:
+            PHI+=1
+        else:
+            CLE+=1
+        if game161>=.38:
+            TB+=1
+        else:
+            LAR+=1
+            
+        ##### Week 12
+        
+        game162 = float(np.random.uniform(0,1,1))
+        game163 = float(np.random.uniform(0,1,1))
+        game164 = float(np.random.uniform(0,1,1))
+        game165 = float(np.random.uniform(0,1,1))
+        game166 = float(np.random.uniform(0,1,1))
+        game167 = float(np.random.uniform(0,1,1))
+        game168 = float(np.random.uniform(0,1,1))
+        game169 = float(np.random.uniform(0,1,1))
+        game170 = float(np.random.uniform(0,1,1))
+        game171 = float(np.random.uniform(0,1,1))
+        game172 = float(np.random.uniform(0,1,1))
+        game173 = float(np.random.uniform(0,1,1))
+        game174 = float(np.random.uniform(0,1,1))
+        game175 = float(np.random.uniform(0,1,1))
+        game176 = float(np.random.uniform(0,1,1))
+        game177 = float(np.random.uniform(0,1,1))
+        
+        if game162>=.5:
+            DET+=1
+        else:
+            HOU+=1
+        if game176>=.05:
+            DAL+=1
+        else:
+            WAS+=1
+        if game163>=.39:
+            BAL+=1
+        else:
+            PIT+=1
+        if game164>=.55:
+            TEN+=1
+        else:
+            IND+=1
+        if game165>=.25:
+            CIN+=1
+        else:
+            NYG+=1
+        if game166>=.25:
+            BUF+=1
+        else:
+            LAC+=1
+        if game167>=.18:
+            ATL+=1
+        else:
+            LV+=1
+        if game168>=.42:
+            CLE+=1
+        else:
+            JAX+=1
+        if game169>=.45:
+            NYJ+=1
+        else:
+            MIA+=1
+        if game170>=.21:
+            NE+=1
+        else:
+            ARI+=1
+        if game171>=.07:
+            MIN+=1
+        else:
+            CAR+=1
+        if game172>=.4:
+            DEN+=1
+        else:
+            NO+=1
+        if game173>=.3:
+            SF+=1
+        else:
+            LAR+=1
+        if game174>=.15:
+            KC+=1
+        else:
+            TB+=1
+        if game175>=.15:
+            GB+=1
+        else:
+            CHI+=1
+        if game177>=.38:
+            SEA+=1
+        else:
+            PHI+=1
+        
+        ##### Week 13
+        
+        game178 = float(np.random.uniform(0,1,1))
+        game179 = float(np.random.uniform(0,1,1))
+        game180 = float(np.random.uniform(0,1,1))
+        game181 = float(np.random.uniform(0,1,1))
+        game182 = float(np.random.uniform(0,1,1))
+        game183 = float(np.random.uniform(0,1,1))
+        game184 = float(np.random.uniform(0,1,1))
+        game185 = float(np.random.uniform(0,1,1))
+        game186 = float(np.random.uniform(0,1,1))
+        game187 = float(np.random.uniform(0,1,1))
+        game188 = float(np.random.uniform(0,1,1))
+        game189 = float(np.random.uniform(0,1,1))
+        game190 = float(np.random.uniform(0,1,1))
+        game191 = float(np.random.uniform(0,1,1))
+        game192 = float(np.random.uniform(0,1,1))
+        
+        if game178>=.17:
+            BAL+=1
+        else:
+            DAL+=1
+        if game179>=.2:
+            NO+=1
+        else:
+            ATL+=1
+        if game180>=.03:
+            PIT+=1
+        else:
+            WAS+=1
+        if game181>=.4:
+            NYJ+=1
+        else:
+            LV+=1
+        if game182>=.1:
+            MIN+=1
+        else:
+            JAX+=1
+        if game183>=.35:
+            MIA+=1
+        else:
+            CIN+=1
+        if game184>=.48:
+            CHI+=1
+        else:
+            DET+=1
+        if game185>=.47:
+            HOU+=1
+        else:
+            IND+=1
+        if game186>=.04:
+            SEA+=1
+        else:
+            NYG+=1
+        if game187>=.25:
+            LAR+=1
+        else:
+            ARI+=1
+        if game188>=.25:
+            GB+=1
+        else:
+            PHI+=1
+        if game189>=.38:
+            NE+=1
+        else:
+            LAC+=1
+        if game190>=.08:
+            KC+=1
+        else:
+            DEN+=1
+        if game191>=.1:
+            SF+=1
+        else:
+            BUF+=1
+        if game192>=.18:
+            TEN+=1
+        else:
+            CLE+=1
+        
+        ##### Week 14
+        
+        game193 = float(np.random.uniform(0,1,1))
+        game194 = float(np.random.uniform(0,1,1))
+        game195 = float(np.random.uniform(0,1,1))
+        game196 = float(np.random.uniform(0,1,1))
+        game197 = float(np.random.uniform(0,1,1))
+        game198 = float(np.random.uniform(0,1,1))
+        game199 = float(np.random.uniform(0,1,1))
+        game200 = float(np.random.uniform(0,1,1))
+        game201 = float(np.random.uniform(0,1,1))
+        game202 = float(np.random.uniform(0,1,1))
+        game203 = float(np.random.uniform(0,1,1))
+        game204 = float(np.random.uniform(0,1,1))
+        game205 = float(np.random.uniform(0,1,1))
+        game206 = float(np.random.uniform(0,1,1))
+        game207 = float(np.random.uniform(0,1,1))
+        game208 = float(np.random.uniform(0,1,1))
+        
+        if game193>=.25:
+            LAR+=1
+        else:
+            NE+=1
+        if game194>=.18:
+            DEN+=1
+        else:
+            CAR+=1
+        if game195>=.3:
+            TB+=1
+        else:
+            MIN+=1
+        if game196>=.45:
+            NYG+=1
+        else:
+            ARI+=1
+        if game197>=.02:
+            KC+=1
+        else:
+            MIA+=1
+        if game198>=.18:
+            TEN+=1
+        else:
+            JAX+=1
+        if game199>=.32:
+            GB+=1
+        else:
+            DET+=1
+        if game200>=.2:
+            DAL+=1
+        else:
+            CIN+=1
+        if game201>=.38:
+            CHI+=1
+        else:
+            HOU+=1
+        if game202>=.05:
+            SEA+=1
+        else:
+            NYJ+=1
+        if game203>=.44:
+            LV+=1
+        else:
+            IND+=1
+        if game204>=.003:
+            SF+=1
+        else:
+            WAS+=1
+        if game205>=.3:
+            NO+=1
+        else:
+            PHI+=1
+        if game206>=.47:
+            LAC+=1
+        else:
+            ATL+=1
+        if game207>=.4:
+            BUF+=1
+        else:
+            PIT+=1
+        if game208>=.13:
+            BAL+=1
+        else:
+            CLE+=1
+        
+            
+            
+        
+        
+        ##### Week 15
+        
+        game209 = float(np.random.uniform(0,1,1))
+        game210 = float(np.random.uniform(0,1,1))
+        game211 = float(np.random.uniform(0,1,1))
+        game212 = float(np.random.uniform(0,1,1))
+        game213 = float(np.random.uniform(0,1,1))
+        game214 = float(np.random.uniform(0,1,1))
+        game215 = float(np.random.uniform(0,1,1))
+        game216 = float(np.random.uniform(0,1,1))
+        game217 = float(np.random.uniform(0,1,1))
+        game218 = float(np.random.uniform(0,1,1))
+        game219 = float(np.random.uniform(0,1,1))
+        game220 = float(np.random.uniform(0,1,1))
+        game221 = float(np.random.uniform(0,1,1))
+        game222 = float(np.random.uniform(0,1,1))
+        game223 = float(np.random.uniform(0,1,1))
+        game224 = float(np.random.uniform(0,1,1))
+
+        
+        if game209>=.4:
+            LAC+=1
+        else:
+            LV+=1
+        if game210>=.49:
+            DEN+=1
+        else:
+            BUF+=1
+        if game211>=.45:
+            NYG+=1
+        else:
+            CLE+=1
+        if game212>=.23:
+            MIN+=1
+        else:
+            CHI+=1
+        if game213>=.04:
+            GB+=1
+        else:
+            CAR+=1
+        if game214>=.2:
+            IND+=1
+        else:
+            HOU+=1
+        if game215>=.05:
+            LAR+=1
+        else:
+            NYJ+=1
+        if game216>=.15:
+            TEN+=1
+        else:
+            DET+=1
+        if game217>=.398:
+            TB+=1
+        else:
+            ATL+=1
+        if game218>=.04:
+            BAL+=1
+        else:
+            JAX+=1
+        if game219>=.47:
+            NE+=1
+        else:
+            MIA+=1
+        if game220>=.45:
+            ARI+=1
+        else:
+            PHI+=1
+        if game221>=.46:
+            NO+=1
+        else:
+            KC+=1
+        if game222>=.32:
+            SF+=1
+        else:
+            DAL+=1
+        if game223>=.08:
+            SEA+=1
+        else:
+            WAS+=1
+        if game224>=.18:
+            PIT+=1
+        else:
+            CIN+=1
+         
+        ##### Week 16
+        
+        game225 = float(np.random.uniform(0,1,1))
+        game226 = float(np.random.uniform(0,1,1))
+        game227 = float(np.random.uniform(0,1,1))
+        game228 = float(np.random.uniform(0,1,1))
+        game229 = float(np.random.uniform(0,1,1))
+        game230 = float(np.random.uniform(0,1,1))
+        game231 = float(np.random.uniform(0,1,1))
+        game232 = float(np.random.uniform(0,1,1))
+        game233 = float(np.random.uniform(0,1,1))
+        game234 = float(np.random.uniform(0,1,1))
+        game235 = float(np.random.uniform(0,1,1))
+        game236 = float(np.random.uniform(0,1,1))
+        game237 = float(np.random.uniform(0,1,1))
+        game238 = float(np.random.uniform(0,1,1))
+        game239 = float(np.random.uniform(0,1,1))
+        game240 = float(np.random.uniform(0,1,1))
+        
+        if game225>=.2:
+            NO+=1
+        else:
+            MIN+=1
+        if game226>=.06:
+            SF+=1
+        else:
+            ARI+=1
+        if game227>=.34:
+            CAR+=1
+        else:
+            WAS+=1
+        if game228>=.21:
+            PIT+=1
+        else:
+            IND+=1
+        if game229>=.14:
+            KC+=1
+        else:
+            ATL+=1
+        if game230>=.3:
+            TB+=1
+        else:
+            DET+=1
+        if game231>=.2:
+            DEN+=1
+        else:
+            LAC+=1
+        if game232>=.32:
+            LV+=1
+        else:
+            MIA+=1
+        if game233>=.55:
+            NYJ+=1
+        else:
+            CLE+=1
+        if game234>=.02:
+            BAL+=1
+        else:
+            NYG+=1
+        if game235>=.25:
+            HOU+=1
+        else:
+            CIN+=1
+        if game236>=.45:
+            CHI+=1
+        else:
+            JAX+=1
+        if game237>=.38:
+            SEA+=1
+        else:
+            LAR+=1
+        if game238>=.2:
+            DAL+=1
+        else:
+            PHI+=1
+        if game239>=.42:
+            GB+=1
+        else:
+            TEN+=1
+        if game240>=.4:
+            BUF+=1
+        else:
+            NE+=1
+        
+        ##### Week 17
+        
+        game241 = float(np.random.uniform(0,1,1))
+        game242 = float(np.random.uniform(0,1,1))
+        game243 = float(np.random.uniform(0,1,1))
+        game244 = float(np.random.uniform(0,1,1))
+        game245 = float(np.random.uniform(0,1,1))
+        game246 = float(np.random.uniform(0,1,1))
+        game247 = float(np.random.uniform(0,1,1))
+        game248 = float(np.random.uniform(0,1,1))
+        game249 = float(np.random.uniform(0,1,1))
+        game250 = float(np.random.uniform(0,1,1))
+        game251 = float(np.random.uniform(0,1,1))
+        game252 = float(np.random.uniform(0,1,1))
+        game253 = float(np.random.uniform(0,1,1))
+        game254 = float(np.random.uniform(0,1,1))
+        game255 = float(np.random.uniform(0,1,1))
+        game256 = float(np.random.uniform(0,1,1))
+        
+        
+        if game241>=.05:
+            BUF+=1
+        else:
+            MIA+=1
+        if game242>=.07:
+            NO+=1
+        else:
+            CAR+=1
+        if game243>=.08:
+            IND+=1
+        else:
+            JAX+=1
+        if game244>=.2:
+            TEN+=1
+        else:
+            HOU+=1
+        if game245>=.18:
+            GB+=1
+        else:
+            CHI+=1
+        if game246>=.05:
+            BAL+=1
+        else:
+            CIN+=1
+        if game247>=.18:
+            PIT+=1
+        else:
+            CLE+=1
+        if game248>=.45:
+            MIN+=1
+        else:
+            DET+=1
+        if game249>=.07:
+            KC+=1
+        else:
+            LAC+=1
+        if game250>=.1:
+            NE+=1
+        else:
+            NYJ+=1
+        if game251>=.2:
+            DAL+=1
+        else:
+            NYG+=1
+        if game252>=.12:
+            PHI+=1
+        else:
+            WAS+=1
+        if game253>=.18:
+            TB+=1
+        else:
+            ATL+=1
+        if game254>=.16:
+            DEN+=1
+        else:
+            LV+=1
+        if game255>=.13:
+            LAR+=1
+        else:
+            ARI+=1
+        if game256>=.15:
+            SF+=1
+        else:
+            SEA+=1
+        
+
+            
+        
+        TeamList=[ARI,ATL,BAL,BUF,CAR,CHI,CIN,CLE,DAL,DEN,DET,GB,HOU,IND,JAX,KC,LAC,
+        LAR,LV,MIA,MIN,NE,NO,NYG,NYJ,PHI,PIT,SEA,SF,TB,TEN,WAS]
+        AFC_East=[BUF,MIA,NE,NYJ]
+        AFC_North=[BAL,CIN,CLE,PIT]
+        AFC_South=[HOU,IND,JAX,TEN]
+        AFC_West=[DEN,KC,LV,LAC]
+        NFC_East=[DAL,NYG,PHI,WAS]
+        NFC_North=[CHI,DET,GB,MIN]
+        NFC_South=[ATL,CAR,NO,TB]
+        NFC_West=[ARI,LAR,SF,SEA]  
+        
+        AFC = [BUF,MIA,NE,NYJ,BAL,CIN,CLE,PIT,HOU,IND,JAX,TEN,DEN,KC,LV,LAC]
+        NFC = [DAL,NYG,PHI,WAS,CHI,DET,GB,MIN,ATL,CAR,NO,TB,ARI,LAR,SF,SEA]
+        
+
+            
+        if BUF == max(AFC):
+            BUF_W+=1
+        if MIA == max(AFC):
+            MIA_W+=1
+        if NE == max(AFC):
+            NE_W+=1
+        if NYJ == max(AFC):
+            NYJ_W+=1
+        if BAL  == max(AFC):
+            BAL_W+=1
+        if CIN == max(AFC):
+            CIN_W+=1
+        if CLE == max(AFC):
+            CLE_W+=1
+        if PIT == max(AFC):
+            PIT_W+=1
+        if HOU == max(AFC):
+            HOU_W+=1
+        if IND == max(AFC):
+            IND_W+=1
+        if JAX == max(AFC):
+            JAX_W += 1
+        if TEN == max(AFC):
+            TEN_W +=1
+        if DEN  == max(AFC):
+            DEN_W +=1
+        if KC == max(AFC):
+            KC_W += 1
+        if LV  == max(AFC):
+            LV_W+=1
+        if LAC  == max(AFC):
+            LAC_W +=1
+            
+        if DAL == max(NFC):
+            DAL_W+=1
+        if NYG  == max(NFC):
+            NYG_W+=1
+        if PHI == max(NFC):
+            PHI_W+=1
+        if WAS == max(NFC):
+            WAS_W+=1
+        if CHI == max(NFC):
+            CHI_W+=1
+        if DET == max(NFC):
+            DET_W+=1
+        if GB == max(NFC):
+            GB_W+=1
+        if MIN  == max(NFC):
+            MIN_W+=1
+        if ATL == max(NFC):
+            ATL_W+=1
+        if CAR  == max(NFC):
+            CAR_W+=1
+        if NO == max(NFC):
+            NO_W+=1
+        if TB == max(NFC):
+            TB_W+=1
+        if ARI == max(NFC):
+            ARI_W +=1
+        if LAR == max(NFC):
+            LAR_W+=1
+        if SF == max(NFC):
+            SF_W+=1
+        if SEA == max(NFC):
+            SEA_W+=1
+            
+        AFC_W = [BUF_W,MIA_W,NE_W,NYJ_W,BAL_W,CIN_W,CLE_W,PIT_W,HOU_W,
+           IND_W,JAX_W,TEN_W,DEN_W,KC_W,LV_W,LAC_W]
+        NFC_W = [DAL_W,NYG_W,PHI_W,WAS_W,CHI_W,DET_W,GB_W,MIN_W,ATL_W,
+           CAR_W,NO_W,TB_W,ARI_W,LAR_W,SF_W,SEA_W]
+        
+        
+        #AFC EAST
+        if BUF > NE and BUF > MIA and BUF > NYJ:
+            BUF_Div += 1
+        if MIA > NE and MIA > BUF and MIA > NYJ:
+            MIA_Div += 1
+        if NE > BUF and NE > MIA and NE > NYJ:
+            NE_Div += 1
+        if NYJ > NE and NYJ > BUF and NYJ > MIA:
+            NYJ_Div += 1
+        
+        #AFC NORTH
+        if BAL > CIN and BAL > CLE and BAL > PIT:
+            BAL_Div += 1
+        if CIN > BAL and CIN > CLE and CIN > PIT:
+            CIN_Div += 1 
+        if CLE > BAL and CLE > CIN and CLE > PIT:
+            CLE_Div += 1
+        if PIT > BAL and PIT > CIN and PIT > CLE:
+            PIT_Div += 1
+        
+        #AFC SOUTH
+        if HOU > IND and HOU > JAX and HOU > TEN:
+            HOU_Div+=1
+        if IND > HOU and IND > JAX and IND > TEN:
+            IND_Div += 1
+        if JAX > HOU and JAX > IND and JAX > TEN:
+            JAX_Div +=1
+        if TEN > HOU and TEN > IND and TEN > JAX:
+            TEN_Div += 1
+            
+        #AFC WEST
+        if DEN > KC and DEN > LV and DEN > LAC:
+            DEN_Div +=1
+        if KC > DEN and KC > LV and KC > LAC:
+            KC_Div += 1
+        if LV > KC and LV > LAC and LV > DEN:
+            LV_Div += 1
+        if LAC > KC and LAC > DEN and LAC > LV:
+            LAC_Div +=1
+        
+        #NFC EAST
+        if DAL > NYG and DAL > PHI and DAL > WAS : 
+            DAL_Div += 1 
+        if NYG > DAL and NYG > PHI and NYG > WAS : 
+            NYG_Div += 1
+        if PHI > DAL and PHI > NYG and PHI > WAS : 
+            PHI_Div += 1 
+        if WAS > DAL and WAS > PHI and WAS > NYG:
+            WAS_Div +=1
+        
+        #NFC NORTH
+        if CHI > DET and CHI > MIN and CHI > GB:
+            CHI_Div+=1
+        if DET > GB and DET > CHI and DET > MIN:
+            DET_Div += 1 
+        if GB > CHI and GB > DET and GB > MIN:
+            GB_Div +=1
+        if MIN > CHI and MIN > GB and MIN > DET : 
+            MIN_Div += 1
+        
+        #NFC SOUTH
+        if ATL > NO and ATL > TB and ATL > CAR:
+            ATL_Div +=1
+        if NO > ATL and NO > TB and NO > CAR:
+            NO_Div += 1
+        if TB > NO and TB > ATL and TB > CAR:
+            TB_Div += 1
+        if CAR > NO and CAR > ATL and CAR > TB:
+            CAR_Div += 1
+        
+        #NFC WEST 
+        if SEA > LAR and SEA > SF and SEA > ARI:
+            SEA_Div += 1
+        if SF > SEA and SF > LAR and SF > ARI:
+            SF_Div +=1
+        if LAR > SF and LAR > SEA and LAR > ARI:
+            LAR_Div +=1
+        if ARI > SF and ARI > SEA and ARI > LAR:
+            ARI_Div +=1 
+                
+    print(TeamList)    
+    print("AFC_East",AFC_East,BUF_Div,MIA_Div,NE_Div,NYJ_Div)
+    print("AFC_North",AFC_North, BAL_Div, CIN_Div, CLE_Div, PIT_Div)
+    print("AFC_South",AFC_South, HOU_Div, IND_Div, JAX_Div, TEN_Div)
+    print("AFC_West",AFC_West, DEN_Div,KC_Div,LV_Div,LAC_Div)
+    print("NFC_East",NFC_East,DAL_Div,NYG_Div,PHI_Div,WAS_Div)
+    print("NFC_North",NFC_North,CHI_Div,DET_Div,GB_Div,MIN_Div)
+    print("NFC_South",NFC_South,ATL_Div,CAR_Div,NO_Div,TB_Div)
+    print("NFC_West",NFC_West,ARI_Div,LAR_Div,SF_Div,SEA_Div)
+    
+    print("AFC MOST WINS",AFC_W)
+    print("NFC MOST WINS",NFC_W)
+    
+    return AFC_West
+    
+NFL_2020_season(1)
+
+#Takes Approximatley 84 seconds to run
+
